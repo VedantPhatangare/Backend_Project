@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "backend project",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev":"nodemon index.js"
   },
   "keywords": [
     "javascript",
@@ -13,5 +16,8 @@
     "React"
   ],
   "author": "Vedant Phatangare",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
 }
